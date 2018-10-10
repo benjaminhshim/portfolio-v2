@@ -1,0 +1,89 @@
+#about-div {
+  min-height: 85vh;
+  max-height: auto;
+  text-align: center;
+  position: relative;
+  font-family: "Avenir Next";
+  max-width: 80%;
+  margin: 3rem auto 0 auto;
+}
+@media only screen and (max-height: 750px) {
+  #about-div {
+    overflow: hidden;
+    margin-top: 0;
+  }
+}
+#about-div .container {
+  margin-top: 3rem;
+  font-family: "Avenir";
+  font-size: 0.95em;
+}
+@media only screen and (max-width: 1366px) {
+  #about-div .container {
+    min-height: 40vh;
+    max-height: auto;
+  }
+}
+@media only screen and (max-width: 980px) {
+  #about-div .container {
+    display: block;
+  }
+}
+#about-div .container .about-me {
+  padding-top: 0.5rem;
+}
+#about-div .container .about-me p {
+  text-align: left;
+}
+#about-div .container .about-me p a {
+  color: teal;
+  font-weight: 500;
+}
+@media only screen and (max-width: 992px) {
+  #about-div .container .about-me p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1390px) {
+  #about-div .container .about-me p {
+    font-size: 0.9em;
+  }
+}
+#about-div .container .about-me h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+#about-div .container .skills {
+  padding-top: 1rem;
+  background: whitesmoke;
+}
+#about-div .container .skills h1 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+@media only screen and (max-width: 980px) {
+  #about-div .container .skills {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1390px) {
+  #about-div .container .skills p {
+    font-size: 0.9em;
+  }
+}
+#about-div .container .fa {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+#about-div h1 {
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+}
+
+/*# sourceMappingURL=About.css.map */

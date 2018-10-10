@@ -1,0 +1,50 @@
+#projects-div {
+  min-height: 100vh;
+  max-height: auto;
+  text-align: center;
+  background: #f3f3f3;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1390px) {
+  #projects-div {
+    min-height: 90vh;
+    max-height: auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #projects-div {
+    min-height: 80vh;
+    max-height: auto;
+    padding-bottom: 5rem;
+  }
+}
+#projects-div h1 {
+  text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border: 1px solid black;
+  color: white;
+  background: black;
+  width: 45%;
+}
+#projects-div #projects-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 3rem auto 0 auto;
+  width: 80%;
+}
+@media only screen and (max-width: 1024px) {
+  #projects-div #projects-container {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 760px) {
+  #projects-div #projects-container {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=Projects.css.map */

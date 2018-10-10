@@ -1,0 +1,83 @@
+#banner {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    background: black;
+    position: relative;
+    // text-align: center;
+
+    #header-div {
+        text-align: center;
+        border: 1px solid white;
+        display: inline-block;
+        padding: 0.9rem 2.5rem;
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+      
+    }
+
+    #name {
+        color: white;
+        font-size: 1.4rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 0;
+
+        @media only screen and (max-width: 797px) {
+            font-size: 1.2rem;
+        }
+
+        @media only screen and (max-width: 748px) {
+            font-size: 1rem;
+        }
+    }
+
+    #role {
+        color: white;
+        font-size: 0.9rem;
+        letter-spacing: 0.175rem;
+        margin-bottom: 0;
+
+        @media only screen and (max-width: 797px) {
+            font-size: 0.8rem;
+        }
+
+        @media only screen and (max-width: 748px) {
+            font-size: 0.5rem;
+        }
+
+            @media only screen and (max-width: 630px) {
+               margin-top: 0.5rem;
+
+            }
+        
+
+        span {
+            @media only screen and (max-width: 630px) {
+                display: block;
+                font-size: 0.8rem;
+
+            }
+        }
+    }
+    @keyframes jump { 0% { bottom: 0; } 50% { bottom: 2rem; } 100% { bottom: 0; } }
+
+    .arrow {
+        color: white;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translate(-50%, 0%);
+
+        font-size: 2rem;
+        animation: jump 2s infinite;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+

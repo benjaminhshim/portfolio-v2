@@ -1,0 +1,173 @@
+#project-item {
+    // border: 1px solid black;
+    width: 32%;
+    margin: 10px 0px;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        // box-shadow: 0 5px 15px -3px gray;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        display: block;
+        filter: grayscale(33%);
+
+    }
+
+    @media only screen and (max-width: 1024px) {
+        width: 45%;
+        margin-bottom: 1.5rem;  
+
+    }
+
+    @media only screen and (max-width: 760px) {
+      margin: 0 auto;
+      width: 80%;
+      margin-bottom: 1.5rem;  
+    
+    }
+
+    
+.carousel-img {
+    position: relative;
+    overflow: hidden;
+    
+
+  }
+
+
+  .carousel-img:hover img {
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: rgb(243, 243, 243);
+    text-align: center;
+    //  background: linear-gradient(to right top, rgb(201, 201, 201), white);
+  }
+  
+  .carousel-img:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay-title {
+      font-weight: 600;
+      font-size: 1.4rem;
+        // text-transform: uppercase;
+        margin-top: 15%;
+      text-align: center;
+  }
+
+  .learn-more {
+    // color: teal;
+    position: absolute;
+    font-weight: 400;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Avenir";
+    padding: 0.9rem 2.2rem;
+    // border: 1px solid teal;
+    color: black;
+    border: 1px solid black;
+    z-index: 2;
+    font-size: 0.8rem;
+    transition: 0.5s ease;
+
+  }
+
+  .learn-more:hover {
+    cursor: default;
+    // background: teal;
+    background: black;
+    color: white;
+    border: none;
+    border: 1px solid black;
+    box-shadow: 0 5px 15px -3px gray;
+    cursor: pointer;
+
+    }
+
+}
+
+
+
+
+.dialog {
+    min-width: 55%;
+    max-width: auto;
+    min-height: 75%;
+    max-height: auto;
+    font-family: 'Avenir';
+
+    section {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .view {
+        width: 100%;
+        min-height: 100%;
+    }
+
+    .coverflow-item {
+        width: 100%;
+        height: 100%;
+        min-height: auto;
+        object-fit: contain;
+
+    }
+
+    .dialog-content {
+        padding: 0 1.5rem 1.5rem 1.5rem;
+
+        .dialog-buttons {
+            float: right;
+            margin: 1rem 0;
+
+            a {
+                border-radius: 0;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: black;
+    }
+
+    p {
+        font-size: 0.9rem;
+        line-height: 0.5;
+    }
+    p:first-of-type {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+   
+
+}
+
+

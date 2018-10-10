@@ -1,0 +1,33 @@
+#navbar {
+    
+    width: auto;
+    float: right;
+    margin-top: 2.5rem;
+    margin-right: 7rem;
+    // border: 1px solid white;
+
+    nav {
+    display: flex;
+    align-items: center;
+        a {
+            color: white;
+            margin-left: 2rem;
+            font-size: 0.8rem;
+            letter-spacing: 0.05rem;
+            font-size: 0.7rem;
+            display: inline-block;
+
+           
+        }
+        
+
+        i {
+            font-size: 1.4rem;
+        }
+
+        .nav-social-icon {
+            width: 60%;
+            height: 60%;
+        }
+    }
+}

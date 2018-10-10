@@ -1,0 +1,43 @@
+{
+  "name": "my-portfolio-v2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mdbreact": "^4.8.0",
+    "react": "^16.5.2",
+    "react-coverflow": "^0.2.16",
+    "react-dom": "^16.5.2",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "1.1.5",
+    "react-scroll-to-component": "^1.0.2",
+    "react-toolbox": "^2.0.0-beta.13",
+    "react-toolbox-themr": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "toolbox": "react-toolbox-themr"
+  },
+  "devDependencies": {
+    "react-toolbox-themr": "^1.0.2"
+  },
+  "reactToolbox": {
+    "include": [
+      "BUTTON",
+      "DIALOG",
+      "APPBAR",
+      "NAVIGATION",
+      "LINK"
+    ],
+    "customProperties": {
+      "animation-duration": "0.3s",
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary-contrast": "var(--color-dark-contrast)",
+      "color-accent-contrast": "var(--color-dark-contrast)"
+    },
+    "output": "assets/react-toolbox"
+  }
+}

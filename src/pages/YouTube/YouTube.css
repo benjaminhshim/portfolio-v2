@@ -1,0 +1,169 @@
+#youtube-div {
+  min-height: 100vh;
+  max-height: auto;
+  text-align: center;
+  position: relative;
+}
+@media only screen and (max-width: 1390px) {
+  #youtube-div {
+    min-height: 50vh;
+    max-height: auto;
+  }
+}
+@media only screen and (max-width: 1366px) and (max-height: 1024px) {
+  #youtube-div {
+    min-height: 70vh;
+  }
+}
+@media only screen and (max-height: 750px) and (max-width: 787px) {
+  #youtube-div {
+    padding-bottom: 10rem;
+  }
+}
+#youtube-div h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  color: #747474;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+}
+#youtube-div #youtube-card {
+  border: 4px solid #f3f3f3;
+  width: 50%;
+  margin: 0 auto;
+  top: -4.6rem;
+  right: 25%;
+  left: 25%;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  background: white;
+  padding-bottom: 3rem;
+}
+@media only screen and (max-height: 750px) {
+  #youtube-div #youtube-card {
+    top: 0;
+  }
+}
+#youtube-div #youtube-container {
+  margin: 2rem auto 0 auto;
+  width: 80%;
+  position: relative;
+}
+#youtube-div #youtube-container img {
+  width: 100%;
+  height: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#youtube-div #youtube-container article {
+  margin-top: 3rem;
+}
+#youtube-div #youtube-container article p {
+  letter-spacing: 0.05rem;
+  margin-bottom: 0;
+  color: #444444;
+  font-size: 1rem;
+}
+#youtube-div #youtube-container #kinda-neat-socials {
+  width: 33%;
+  margin: 2rem auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 980px) {
+  #youtube-div #youtube-container #kinda-neat-socials {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 787px) {
+  #youtube-div #youtube-container #kinda-neat-socials {
+    display: block;
+  }
+}
+#youtube-div #youtube-container #kinda-neat-socials a {
+  color: black;
+}
+@media only screen and (max-width: 787px) {
+  #youtube-div #youtube-container #kinda-neat-socials a {
+    display: block;
+    line-height: 3;
+  }
+}
+#youtube-div #youtube-container #kinda-neat-socials .fa {
+  font-size: 1.3rem;
+}
+#youtube-div #youtube-container #kinda-neat-socials .fa:hover {
+  cursor: pointer;
+}
+#youtube-div #youtube-container .carousel-img {
+  position: relative;
+  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
+}
+#youtube-div #youtube-container .carousel-img:hover img {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+#youtube-div #youtube-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: white;
+  text-align: center;
+}
+#youtube-div #youtube-container .carousel-img:hover .overlay {
+  opacity: 1;
+}
+#youtube-div #youtube-container .overlay-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-top: 30%;
+  text-align: center;
+}
+#youtube-div #youtube-container .learn-more {
+  position: absolute;
+  font-weight: 400;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Avenir";
+  padding: 0.9rem 2.2rem;
+  color: black;
+  border: 1px solid black;
+  z-index: 2;
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+  transition: 0.5s ease;
+}
+#youtube-div #youtube-container .learn-more:hover {
+  cursor: default;
+  background: black;
+  color: white;
+  border: none;
+  border: 1px solid black;
+  box-shadow: 0 5px 15px -3px gray;
+  cursor: pointer;
+}
+
+.dialog iframe {
+  width: 100%;
+  min-width: auto;
+  min-height: 35rem;
+  max-height: auto;
+}
+
+/*# sourceMappingURL=YouTube.css.map */

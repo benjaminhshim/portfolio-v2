@@ -1,0 +1,32 @@
+.navbar {
+    .navbar-nav {
+        padding-right: 2.5rem;
+        padding-top: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-bold {
+        padding-left: 2.5rem;
+        padding-top: 0.5rem;
+
+    }
+
+    .navbar-brand {
+        cursor: default;
+    }
+
+}
+
+.nav-item {
+    margin-left: 1.5rem;
+    a {
+        font-size: 0.7rem;
+    }
+
+    i {
+        font-size: 1.4rem;
+    }
+
+    
+}

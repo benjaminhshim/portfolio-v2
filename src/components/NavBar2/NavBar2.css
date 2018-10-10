@@ -1,0 +1,25 @@
+.navbar .navbar-nav {
+  padding-right: 2.5rem;
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar .fa-bold {
+  padding-left: 2.5rem;
+  padding-top: 0.5rem;
+}
+.navbar .navbar-brand {
+  cursor: default;
+}
+
+.nav-item {
+  margin-left: 1.5rem;
+}
+.nav-item a {
+  font-size: 0.7rem;
+}
+.nav-item i {
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=NavBar2.css.map */

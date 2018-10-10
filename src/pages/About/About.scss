@@ -1,0 +1,118 @@
+#about-div {
+    min-height: 85vh;
+    max-height: auto;
+    text-align: center;
+    position: relative;
+    font-family: "Avenir Next";
+    max-width: 80%;
+    margin: 3rem auto 0 auto;
+
+    @media only screen and (max-height: 750px) {
+        overflow: hidden;
+        margin-top: 0;
+    }
+    .container {
+        margin-top: 3rem;
+        font-family: "Avenir";
+        font-size: 0.95em;
+
+        @media only screen and (max-width: 1366px) {
+            min-height: 40vh;
+            max-height: auto;
+        }
+
+        @media only screen and (max-width: 980px) {
+            display: block;
+        }
+        
+
+        .about-me {
+            padding-top: 0.5rem;
+
+            p {
+                text-align: left;
+
+                a {
+                    color: teal;
+                    font-weight: 500;
+                }
+
+                @media only screen and (max-width: 992px) {
+                    text-align: center;
+                }
+
+                @media only screen and (max-width: 1390px) {
+                    font-size: 0.9em;
+                }
+            }
+
+            h1 {
+                font-size: 1.2rem;
+                font-weight: 500;
+                letter-spacing: 0.1rem;
+            }
+        }
+
+        .skills {
+            padding-top: 1rem;
+            background: rgb(245, 245, 245);
+
+            h1 {
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+                letter-spacing: 0.1rem;
+
+            }
+
+            @media only screen and (max-width: 980px) {
+                display: block;
+            }
+            
+            p {
+                @media only screen and (max-width: 1390px) {
+                    font-size: 0.9em;
+                }
+            }
+            
+        }
+
+        .fa {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        // .fa-mobile {
+        //     font-size: 2rem;
+        //     margin-bottom: 0;
+        // }
+        
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+        display: inline-block;
+        padding: 0.5rem 2rem;
+    }
+
+    // article {
+    //     margin-top: 4rem;
+
+    //     p {
+    //         font-size: 0.9rem;
+    //         line-height: 1.5;
+    //         color: #3c4858;
+    //         letter-spacing: 0.03rem;
+    //         a {
+    //             text-decoration: none;
+    //             color: teal;
+    //         }
+
+            
+    //     }
+    // }
+
+
+}
