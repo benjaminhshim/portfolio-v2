@@ -83,7 +83,7 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: "Avenir";
-    padding: 0.9rem 2.2rem;
+    padding: 0.9em 2.2em;
     // border: 1px solid teal;
     color: black;
     border: 1px solid black;
@@ -116,9 +116,13 @@
     min-height: 75%;
     max-height: auto;
     font-family: 'Avenir';
+    // overflow: hidden;
+    // padding: 0;
+
 
     section {
         padding: 0;
+
     }
 
     .container {
@@ -139,11 +143,12 @@
     }
 
     .dialog-content {
-        padding: 0 1.5rem 1.5rem 1.5rem;
+        padding: 0 1.5em 1.5em 1.5em;
 
         .dialog-buttons {
             float: right;
             margin: 1rem 0;
+
 
             a {
                 border-radius: 0;
@@ -159,7 +164,7 @@
 
     p {
         font-size: 0.9rem;
-        line-height: 0.5;
+        // line-height: 0.5;
     }
     p:first-of-type {
         text-transform: uppercase;

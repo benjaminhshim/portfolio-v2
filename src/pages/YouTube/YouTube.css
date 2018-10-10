@@ -159,11 +159,20 @@
   cursor: pointer;
 }
 
-.dialog iframe {
+.dialog .video-parent {
+  position: relative;
+  overflow: scroll;
   width: 100%;
-  min-width: auto;
-  min-height: 35rem;
+  max-width: auto;
+  min-height: 35em;
   max-height: auto;
+}
+.dialog .video-parent iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=YouTube.css.map */

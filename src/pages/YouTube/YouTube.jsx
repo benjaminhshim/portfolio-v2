@@ -83,32 +83,38 @@ export default class YouTube extends Component {
                 <CarouselInner>
                   <CarouselItem itemId="1">
                     <View>
+                      <div className="video-parent">
                     <iframe 
                         src="https://www.youtube.com/embed/e9aqYvzqrnI" 
                         frameborder="0" 
                         allow="autoplay; encrypted-media" 
                         allowfullscreen>
                       </iframe>
+                      </div>
                     </View>
                   </CarouselItem>
                   <CarouselItem itemId="2">
                     <View>
+                      <div className="video-parent">
                     <iframe 
                         src="https://www.youtube.com/embed/kEqmguMjfd8" 
                         frameborder="0" 
                         allow="autoplay; encrypted-media" 
                         allowfullscreen>
                       </iframe>
+                      </div>
                     </View>
                   </CarouselItem>
                   <CarouselItem itemId="3">
                     <View>
+                      <div className="video-parent">
                     <iframe 
                         src="https://www.youtube.com/embed/oh79L0MCpZY"
                         frameborder="0" 
                         allow="autoplay; encrypted-media" 
                         allowfullscreen>
                       </iframe>
+                      </div>
                     </View>
                   </CarouselItem>
                 </CarouselInner>

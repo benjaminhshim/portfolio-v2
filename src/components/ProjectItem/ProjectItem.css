@@ -67,7 +67,7 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   font-family: "Avenir";
-  padding: 0.9rem 2.2rem;
+  padding: 0.9em 2.2em;
   color: black;
   border: 1px solid black;
   z-index: 2;
@@ -108,7 +108,7 @@
   object-fit: contain;
 }
 .dialog .dialog-content {
-  padding: 0 1.5rem 1.5rem 1.5rem;
+  padding: 0 1.5em 1.5em 1.5em;
 }
 .dialog .dialog-content .dialog-buttons {
   float: right;
@@ -124,7 +124,6 @@
 }
 .dialog p {
   font-size: 0.9rem;
-  line-height: 0.5;
 }
 .dialog p:first-of-type {
   text-transform: uppercase;

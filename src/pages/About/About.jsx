@@ -82,7 +82,7 @@ export default class About extends Component {
                   <br />
                   <br />
 
-                  On his free time, he works on his YouTube channel which has accumulated over 260,000 subscribers and 70 million views to date. Check it out <a href="https://youtube.com/kindaneat" target="_blank">here</a>.
+                  On his free time, he works on his YouTube channel which has accumulated over 270,000 subscribers and 70 million views to date. Check it out <a href="https://youtube.com/kindaneat" target="_blank">here</a>.
 
                   <br />
                   <br />
