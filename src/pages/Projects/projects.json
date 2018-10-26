@@ -78,7 +78,7 @@
         "type": "frontend",
         "src": "xxl.png",
         "info": "A memory game built with React.",
-        "href": null,
+        "href": "https://xxl-2018-clicky-game.herokuapp.com/",
         "github": "https://github.com/benjaminhshim/clicky-game",
         "title": "React Memory Game",
         "details": null,
