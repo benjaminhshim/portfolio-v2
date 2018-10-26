@@ -31,6 +31,7 @@
 
             p {
                 text-align: left;
+                font-size: 14px;
 
                 a {
                     color: teal;
@@ -47,7 +48,7 @@
             }
 
             h1 {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 font-weight: 500;
                 letter-spacing: 0.1rem;
             }
@@ -55,14 +56,18 @@
 
         .skills {
             padding-top: 1rem;
+            padding-bottom: 1rem;
             background: rgb(245, 245, 245);
 
             h1 {
                 margin-bottom: 1rem;
-                font-size: 1.2rem;
+                font-size: 1rem;
                 font-weight: 500;
                 letter-spacing: 0.1rem;
+            }
 
+            p {
+                font-size: 14px;
             }
 
             @media only screen and (max-width: 980px) {

@@ -45,6 +45,7 @@ export default class About extends Component {
                       <p style={{fontWeight: "700"}}>Front End</p>
                       <p>HTML</p>
                       <p>CSS</p>
+                      <p>Sass</p>
                       <p>JavaScript</p>
                       <p>React.js</p>
                       <p>jQuery</p>

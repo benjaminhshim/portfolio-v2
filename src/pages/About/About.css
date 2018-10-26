@@ -34,6 +34,7 @@
 }
 #about-div .container .about-me p {
   text-align: left;
+  font-size: 14px;
 }
 #about-div .container .about-me p a {
   color: teal;
@@ -50,19 +51,23 @@
   }
 }
 #about-div .container .about-me h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
 }
 #about-div .container .skills {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   background: whitesmoke;
 }
 #about-div .container .skills h1 {
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
+}
+#about-div .container .skills p {
+  font-size: 14px;
 }
 @media only screen and (max-width: 980px) {
   #about-div .container .skills {

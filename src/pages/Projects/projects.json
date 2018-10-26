@@ -74,6 +74,42 @@
 
     },
     {
+        "name": "xxl",
+        "type": "frontend",
+        "src": "xxl.png",
+        "info": "A memory game built with React.",
+        "href": null,
+        "github": "https://github.com/benjaminhshim/clicky-game",
+        "title": "React Memory Game",
+        "details": null,
+        "role": "Front End | Back End | UI | UX",
+        "item1src": "xxl.png",
+        "item2src": "xxl.png",
+        "item3src": "xxl.png",
+        "item4src": false,
+        "item5src": false,
+        "inProduction": false
+
+    },
+    {
+        "name": "poker",
+        "type": "frontend",
+        "src": "poker.png",
+        "info": "A simplified version of video poker created with React. View README on GitHub to play.",
+        "href": null,
+        "github": "https://github.com/benjaminhshim/react-video-poker",
+        "title": "React Video Poker",
+        "details": "Website",
+        "role": "Front End",
+        "item1src": "poker-1.png",
+        "item2src": "poker-2.png",
+        "item3src": "poker.png",
+        "item4src": false,
+        "item5src": false,
+        "inProduction": false
+
+    },
+    {
         "name": "slowshiver",
         "type": "frontend",
         "src": "slowshiver.png",
@@ -110,24 +146,6 @@
 
     },
     {
-        "name": "poker",
-        "type": "frontend",
-        "src": "poker.png",
-        "info": "A simplified version of video poker created with React. View README on GitHub to play.",
-        "href": null,
-        "github": "https://github.com/benjaminhshim/react-video-poker",
-        "title": "React Video Poker",
-        "details": "Website",
-        "role": "Front End",
-        "item1src": "poker-1.png",
-        "item2src": "poker-2.png",
-        "item3src": "poker.png",
-        "item4src": false,
-        "item5src": false,
-        "inProduction": false
-
-    },
-    {
         "name": "valente",
         "type": "fullstack",
         "src": "valente.png",
@@ -135,7 +153,7 @@
         "href": null,
         "github": null,
         "title": "Composer Catalog",
-        "details": "Full Stack Application (In production)",
+        "details": null,
         "role": "Front End | Back End | UI | UX",
         "item1src": "valente-1.png",
         "item2src": "valente-2.png",
