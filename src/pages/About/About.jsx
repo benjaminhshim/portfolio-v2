@@ -45,7 +45,7 @@ export default class About extends Component {
                       <p style={{fontWeight: "700"}}>Front End</p>
                       <p>HTML</p>
                       <p>CSS</p>
-                      <p>Sass</p>
+                      {/* <p>Sass</p> */}
                       <p>JavaScript</p>
                       <p>React.js</p>
                       <p>jQuery</p>
@@ -62,7 +62,17 @@ export default class About extends Component {
                       <i class="fa fa-mobile" aria-hidden="true"></i>
                       <p style={{fontWeight: "700"}}>Mobile</p>
                       <p>React Native</p>
-                  </div>            
+                  </div>     
+                  <div className="col">
+                      <i class="fa fa-gear" aria-hidden="true"></i>
+                      <p style={{fontWeight: "700"}}>Tools</p>
+                      <p>ES6</p>
+                      <p>Context API</p>
+                      <p>Firebase</p>
+                      <p>Sass</p>
+                      {/* <p>Squarespace</p> */}
+                      <p>Sketch</p>
+                  </div>           
                 </div>
               </Fade>
 
