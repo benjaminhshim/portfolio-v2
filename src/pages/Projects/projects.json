@@ -92,6 +92,42 @@
 
     },
     {
+        "name": "confused",
+        "type": "frontend",
+        "src": "Confused.png",
+        "info": "A website + RSVP for Confused, directed by The Salto Brothers",
+        "href": "https://www.confusedtheshow.com",
+        "github": null,
+        "title": "Confused (TV Show)",
+        "details": "Website",
+        "role": "Front End",
+        "item1src": "Confused.png",
+        "item2src": "Confused.png",
+        "item3src": "Confused.png",
+        "item4src": false,
+        "item5src": false,
+        "inProduction": false
+
+    },
+    {
+        "name": "poker",
+        "type": "frontend",
+        "src": "poker.png",
+        "info": "A simplified version of video poker created with React. View README on GitHub to play.",
+        "href": null,
+        "github": "https://github.com/benjaminhshim/react-video-poker",
+        "title": "React Video Poker",
+        "details": "Website",
+        "role": "Front End",
+        "item1src": "poker-1.png",
+        "item2src": "poker-2.png",
+        "item3src": "poker.png",
+        "item4src": false,
+        "item5src": false,
+        "inProduction": false
+
+    },
+    {
         "name": "valente",
         "type": "fullstack",
         "src": "valente.png",

@@ -41,14 +41,14 @@ export default class NavBar2 extends Component {
                               <NavLink to="#" onClick={this.props.scrollToAbout}>ABOUT</NavLink>
                           </NavItem>
                           <NavItem>
-                            <NavLink to="https://www.linkedin.com/in/benjaminhshim" target="_blank">
+                            <a href="https://www.linkedin.com/in/benjaminhshim" target="_blank">
                                 <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                            </NavLink>
+                            </a>
                           </NavItem>
                           <NavItem>
-                            <NavLink to="https://www.github.com/benjaminhshim" target="_blank">
+                            <a href="https://www.github.com/benjaminhshim" target="_blank">
                                 <i className="fa fa-github" aria-hidden="true"></i>
-                            </NavLink>
+                            </a>
                           </NavItem>
                         </NavbarNav>
                        
